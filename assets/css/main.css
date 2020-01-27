@@ -190,7 +190,8 @@ html {
 
 body {
     background-color: #2e3141;
-    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/california-view.jpg");
+    /* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/california-view.jpg"); */
+    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.6), rgba(46, 49, 65, 0.6)), url("../../images/pic066.jpg");
     /*"../../images/bg.jpg"*/
     background-size: auto, cover;
     background-attachment: fixed, fixed;
@@ -3032,7 +3033,9 @@ button:disabled,
     -ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
     transition: opacity 0.35s ease, transform 0.35s ease;
     -webkit-overflow-scrolling: touch;
-    background: #4c5c96;
+    /* background: #4c5c96; */
+    /* background: red; */
+    background-image: linear-gradient(to top, rgba(46, 49, 65, 0.4), rgba(46, 49, 65, 0.4)), url("../../images/menu.png");
     border-radius: 5px;
     display: block;
     max-width: 100%;
@@ -3048,6 +3051,7 @@ button:disabled,
 
 #menu .close {
     background-image: url("images/close.svg");
+    /* background-image: url("../../images/pic066.jpg"); */
     background-position: 75% 25%;
     background-repeat: no-repeat;
     background-size: 2em 2em;
@@ -3214,7 +3218,8 @@ body.is-menu-visible #menu .inner {
     #banner {
         padding: 7em 0 8.25em 0;
         background-color: #2e3141;
-        background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+        /* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg"); */
+        background-image: linear-gradient(to top, rgba(46, 49, 65, 0.6), rgba(46, 49, 65, 0.6)), url("../../images/pic066.jpg");
         background-size: auto, cover;
         background-position: center, center;
         margin-bottom: -6.5em;
@@ -3314,7 +3319,8 @@ body.is-preload #banner p {
     #wrapper>header {
         padding: 9em 0 6.25em 0;
         background-color: #2e3141;
-        background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+        /* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg"); */
+        background-image: linear-gradient(to top, rgba(46, 49, 65, 0.6), rgba(46, 49, 65, 0.6)), url("../../images/pic066.jpg");
         background-size: auto, cover;
         background-position: center, 0% 30%;
         margin-bottom: -6.5em;
@@ -3787,7 +3793,8 @@ body.is-preload #banner p {
 @media screen and (max-width: 1280px) {
     #footer {
         background-color: #2e3141;
-        background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+        /* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg"); */
+        background-image: linear-gradient(to top, rgba(46, 49, 65, 0.6), rgba(46, 49, 65, 0.6)), url("../../images/pic066.jpg");
         background-size: auto, cover;
         background-position: center, center;
         margin-top: -6.5em;
